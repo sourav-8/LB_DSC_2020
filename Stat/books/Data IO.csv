@@ -1,0 +1,9 @@
+Function	Usage	Comments
+pd.read_csv()	Read CSV file	".csv, .tsv or .txt"
+pd.read_excel()	Read spreadsheet	.xls or .xlsx
+pd.read_json()	Read JSON document	.json
+pd.read_sql()	Read directly from DB query	Needs 3rd party library to support (e.g. sqlalchemy)
+df.to_csv()	Write to CSV file	".csv, .tsv or .txt"
+df.to_excel()	Write to Excel file	.xls or .xlsx
+df.to_json()	Write to JSON document	.json
+df.to_sql()	Write to DB table	Needs 3rd party library to support (e.g. sqlalchemy)

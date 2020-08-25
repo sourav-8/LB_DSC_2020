@@ -1,0 +1,9 @@
+﻿Name,Usage,Comments
+df.head(),Preview the first n (default=5),"Can define ""n"" by df.head(n)"
+df.tail(),Preview the last n (default=5),"Can define ""n"" by df.tail(n)"
+df.sort_values(),Sort the data frame on a specific column,"Can sort with multiple columns, either ascending or descending"
+df.columns,Display all column names,Can also set column names  by assign a list of column names
+df.dtypes,Display data types of the columns,Return a list of types
+df.shape,Display the shape of the data frame,"Return a tuple: (row_count, col_count)"
+df.describe(),Show basic stats of each column,"Will show different stats for different types of column (numerical, datetime and etc.)"
+s.value_counts(),Count occurrences of each value,Use df['...'] to get a column of data frame as series

@@ -1,0 +1,6 @@
+﻿Name,Usage,Comments
+pd.concat(),Concatenate two dataframe,Can be horizontal or vertical
+pd.merge(),Joining two data frames,"Just like joining tables in DB, need to be careful joining methods (left/right/inner)"
+df.groupby(),Grouping column(s) and then apply more aggregating functions,Very commonly used with agg() function
+df.groupby().agg(),Aggregating records for each group,Need to be used along with groupby() function
+pd.pivot_table(),Convert data frame to pivot table,May have multi-level indices and columns

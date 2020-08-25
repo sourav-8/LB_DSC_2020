@@ -1,0 +1,8 @@
+﻿Name,Usage,Comments
+s.isna(),Whether there are null values existing,Boolean
+df.dropna(),Delete missing values,Can be applied on a series or a data frame
+df.fillna(),Fill missing values with a certain value,Can be applied on a series or a data frame
+df.drop_duplicates(),Delete all duplicated values,Can be applied on a series or a data frame
+df.drop(),Delete columns or rows,Need to specify axis
+df.rename(),Rename columns or rows,Need to specify axis
+df.reset_index(),Convert index column to a data column,A new index will be automatically added using incremental integers

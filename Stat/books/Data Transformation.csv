@@ -1,0 +1,6 @@
+﻿Name,Usage,Comments
+pd.to_datetime(),Convert string column to datetime,Support customised format
+s.astype(),Convert column data type,Need to be careful to NaN values when convert between float/double and integer
+s.apply(),Invoke function on values of Series,Very flexible function that you must practice a lot
+df.apply(),Apply a function along an axis of the DataFrame,When you need to apply a function on multiple columns
+df.explode(),"Transform each element of a list-like to a row, replicating the index values","When you used df.apply to return multiple column in a list, then translate them back to columns"
